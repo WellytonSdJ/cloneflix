@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+[Aplicação CloneFlix](https://wellytonsdj.github.io/cloneFlix/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# NÃO FINALIZADO
 
-In the project directory, you can run:
+## Todas informações aqui contidas são anotações feitas durante a criação da aplicação que ainda encontra-se imcompleta.
 
-### `yarn start`
+# Componentes: 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[]Header
+[]Feature
+[x]List
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Api utilizada: 
 
-### `yarn test`
+[The Movie DB](https://www.themoviedb.org/u/Well989?language=pt-BR)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://wellytonsdj.github.io/cloneFlix/
 
-### `yarn build`
+chave da api
+84c9f2984b58d70b2d314ee9ba4888d3
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+exemplo de requisição da api
+https://api.themoviedb.org/3/movie/550?api_key=84c9f2984b58d70b2d314ee9ba4888d3
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+token de leitura da api:
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4NGM5ZjI5ODRiNThkNzBiMmQzMTRlZTliYTQ4ODhkMyIsInN1YiI6IjYyMDg0NzdmMjZkYWMxMDBlNTJmZTVkNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.F6XO-A24DC-Us2p5_BCVbcWOKCiWQnsdp8nMks68ZcI
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+dentro do movie DB pra conseguir os codigos dos filmes sériees de tv, collections e afins...
+https://developers.themoviedb.org/3/getting-started/daily-file-exports
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+tv networks: http://files.tmdb.org/p/exports/tv_network_ids_02_12_2022.json.gz
+collections:  http://files.tmdb.org/p/exports/collection_ids_02_12_2022.json.gz
+movies: http://files.tmdb.org/p/exports/movie_ids_02_12_2022.json.gz
+MM_DD_YYYY.json.gz
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+tvSeries: http://files.tmdb.org/p/exports/tv_series_ids_02_12_2022.json.gz
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Observação importante!
 
-## Learn More
+Como a API moviedb não estava funcionando as 'tv networks' nem os 'movies' que seriam partes importantes do projeto, repliquei os dados que estavam funcionando, por isso há tantas repetições de dados.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+No entanto, assim que encontrar outra API que forneça dados de filmes da mesma maneira o arquivo tmdb pode ser fácilmente excluido e substituido com os dados da nova API.
