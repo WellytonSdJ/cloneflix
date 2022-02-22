@@ -9,6 +9,14 @@ Depois de ter encontrado uma API bacana que me trazia descrição, ano, capa e v
  * Toda estilização foi feita com puro css.
  * A API utilizada foi [The Movie DB](https://www.themoviedb.org/u/Well989?language=pt-BR).
 ---
+
+### **IMPORANTE**
+
+**Para poder executar o projeto**
+* Com o git instalado em sua máquina - No terminal digite `git clone: https://github.com/WellytonSdJ/cloneflix.git`
+* Baixe os repositórios - Ainda no terminal digite: `cd cloneflix` (para entrar na pasta da aplicação) e depois `npm install` (para baixar os repositórios)
+* Após finalizar o download dos repositórios é só digitar no terminal: `npm run dev` que ele abrirá uma aba no seu navegador com a  aplicação funcionando.
+
  ## **Sobre a experiência:**
 
  Durante a criação, encontrei problemas com a API, mas, ao invés de deixá-la de lado e tentar outra que funcionasse melhor, decidi corrigir o máximo que pudesse para ter mais um desafio durante a criação.
